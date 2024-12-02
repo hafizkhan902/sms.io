@@ -1,0 +1,167 @@
+:root {
+    --primary-color: #4a5a73;
+    --secondary-color: #105289;
+    --link-color: #105289;
+    --border-color: #ededed;
+    --background-color: #f4f4f4;
+    --header-bg: #fff;
+}
+
+body {
+    margin: 0;
+    padding: 15px;
+    font-family: "Open Sans", "Droid Sans", Verdana, Arial, Helvetica;
+    background-color: var(--background-color);
+    color: #333;
+    line-height: 1.4;
+    font-size: 13px;
+}
+
+.wrapper {
+    max-width: 1152px;
+    margin: 0 auto;
+    background: white;
+    box-shadow: 0 0 5px rgba(0,0,0,0.1);
+}
+
+.header {
+    padding: 20px;
+    background: var(--header-bg);
+    border-radius: 7px 7px 0 0;
+}
+
+.header h1 {
+    margin: 0;
+    font-size: 2em;
+    color: var(--primary-color);
+}
+
+.subtitle {
+    margin: 5px 0 0;
+    color: #666;
+}
+
+.quick-links {
+    background: var(--primary-color);
+    padding: 10px 20px;
+}
+
+.quick-links ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    gap: 20px;
+}
+
+.quick-links a {
+    color: white;
+    text-decoration: none;
+}
+
+.main-content {
+    padding: 20px;
+}
+
+.forum-stats {
+    background: #f9f9f9;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+.forum-section {
+    border: 1px solid var(--border-color);
+    margin-bottom: 20px;
+}
+
+.forum-section h3 {
+    background: var(--secondary-color);
+    color: white;
+    margin: 0;
+    padding: 10px;
+}
+
+.forum-info {
+    padding: 15px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.login-section {
+    background: #f9f9f9;
+    padding: 20px;
+    margin-bottom: 20px;
+}
+
+.login-form .form-group {
+    margin-bottom: 15px;
+}
+
+.login-form label {
+    display: inline-block;
+    width: 100px;
+}
+
+.login-form input[type="text"],
+.login-form input[type="password"] {
+    padding: 5px;
+    border: 1px solid #ccc;
+}
+
+.form-links {
+    margin-top: 10px;
+}
+
+.form-links a {
+    color: var(--link-color);
+    text-decoration: none;
+    margin-right: 15px;
+}
+
+.form-links label {
+    color: #666;
+}
+
+.statistics {
+    background: #f9f9f9;
+    padding: 20px;
+}
+
+.statistics h3 {
+    margin-top: 0;
+    color: var(--secondary-color);
+}
+
+footer {
+    padding: 20px;
+    text-align: center;
+    background: #f4f4f4;
+    border-top: 1px solid var(--border-color);
+}
+
+.footer-links {
+    margin-top: 10px;
+}
+
+.footer-links a {
+    color: var(--link-color);
+    text-decoration: none;
+}
+
+/* Additional styles for forum info */
+.stats {
+    color: #666;
+}
+
+.stats strong {
+    color: #333;
+}
+
+.last-post {
+    color: #666;
+    text-align: right;
+}
+
+.last-post p {
+    margin: 2px 0;
+} 
